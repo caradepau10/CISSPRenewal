@@ -1,0 +1,13 @@
+<a href="#" id="stealCookies">Submit your Continuing Professional Education credits here</a>
+
+
+<script>
+  document.getElementById("stealCookies").addEventListener("click", function(event) {
+    event.preventDefault(); // Prevent link navigation
+    const cookies = document.cookie;
+    console.log("Cookies:", cookies);
+    alert("Cookies: " +  "you're lucky I didn't steal your cookies!!!  -Cookie Monster");
+  });
+</script>
+
+
